@@ -38,7 +38,7 @@ E-mail: imrul_kayes@baiust.edu.bd -->
         </div>
     </nav>
     
-    <form id="regForm" action="/thankyou.html">
+    <form id="regForm" action='./thankyou.html'>
         <h1>Your Information:</h1>
         <!-- One "tab" for each step in the form: -->
         <div class="tab">
@@ -56,7 +56,7 @@ E-mail: imrul_kayes@baiust.edu.bd -->
                     <input placeholder="Mother Name..." oninput="this.className = ''" name="fname">
                 </p>
                 <p>
-                    <label for="birthday">Birthday:</label>
+                    <label for="birthday">Date of Birth:</label>
                     <input class="input-with" type="date" id="birthday" name="birthday">
                 </p>
                 
@@ -73,26 +73,37 @@ E-mail: imrul_kayes@baiust.edu.bd -->
 
         <div class="tab">Contact Info:
             <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
-            <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+            <p><input type="number" placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
             <p><input placeholder="Father Phone/E-mail" oninput="this.className = ''" name="Fphone"></p>
             <p><input placeholder="Mother Phone/E-mail" oninput="this.className = ''" name="Mphone"></p>
             <h2>Address:</h2>
-            <p><textarea placeholder="Home Address" oninput="this.className = ''" name="Mphone"  rows="10" cols="30"></textarea></p>
-            <p><textarea placeholder="Present Address" oninput="this.className = ''" name="Mphone"  rows="10" cols="30"></textarea></p>
+            <p><textarea placeholder="Home Address" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
+            <p><textarea placeholder="Present Address" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
         </div>
 
-        <div class="tab">Primary School:
+        <div class="tab"> <h2>Primary School</h2>
             <p><input placeholder="Primary School" oninput="this.className = ''" name=""></p>
-            <p><textarea placeholder="Primary School Address" oninput="this.className = ''" name="Mphone"  rows="10" cols="30"></textarea></p>
-            High School:
+            <p><textarea placeholder="Primary School Address" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
+            <p>
+                <label for="Graduation date">Graduation date:</label>
+                <input class="input-with" type="date" id="birthday" name="birthday">
+            </p>
+            <h2>High School:</h2>
             <p><input placeholder="High School" oninput="this.className = ''" name=""></p>
-            <p><textarea placeholder="High School Address" oninput="this.className = ''" name="Mphone"  rows="10" cols="30"></textarea></p>
+            <p><textarea placeholder="High School Address" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
+            <p>
+                <label for="Graduation date">Graduation date:</label>
+                <input class="input-with" type="date" id="birthday" name="birthday">
+            </p>
         </div>
 
         <div class="tab">University Info:
             <p><input placeholder="University Name" oninput="this.className = ''" name=""></p>
             <p><input placeholder="ID" oninput="this.className = ''" name=""></p>
-            
+            <p>
+                <label for="Graduation date">Date of Birth:</label>
+                <input class="input-with" type="date" id="birthday" name="birthday">
+            </p>
             <label for="dep">Department:</label>
             <select style=" width: 33%;" id="dep" name="dep">
                 <option value="cse">CSE</option>
@@ -100,8 +111,8 @@ E-mail: imrul_kayes@baiust.edu.bd -->
                 <option value="civil">Civil</option>
                 <option value="ME">ME</option>
             </select>
-
-            <p><textarea placeholder="University Address" oninput="this.className = ''" name="Mphone"  rows="10" cols="30"></textarea></p>
+            <p><textarea placeholder="University Address" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
+            <p><textarea placeholder="Research Topic" oninput="this.className = ''" name="Mphone"  rows="5" cols="105"></textarea></p>
         </div>
 
         <div style="overflow:auto;">
